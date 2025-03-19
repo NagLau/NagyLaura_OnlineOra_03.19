@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "418cd3e2-0c08-4aee-ab48-4d7f10d13f0b",
+		"name": "OnlineOra03.19",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "41522737"
+	},
+	"item": [
+		{
+			"name": "szerver futtatása",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3022",
+					"host": [
+						"localhost"
+					],
+					"port": "3022"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET-es",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3022/versenynev60",
+					"host": [
+						"localhost"
+					],
+					"port": "3022",
+					"path": [
+						"versenynev60"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST-os",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3022/uj",
+					"host": [
+						"localhost"
+					],
+					"port": "3022",
+					"path": [
+						"uj"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE-es",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3022/nemvresztvevo",
+					"host": [
+						"localhost"
+					],
+					"port": "3022",
+					"path": [
+						"nemvresztvevo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UPDATE-s",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3022/eredmenyek",
+					"host": [
+						"localhost"
+					],
+					"port": "3022",
+					"path": [
+						"eredmenyek"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
